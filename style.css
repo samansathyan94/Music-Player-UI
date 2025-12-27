@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #1e1e2f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.player {
+  background-color: #2c2c3e;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+}
+
+.player img {
+  width: 200px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.player h3 {
+  margin: 10px 0 5px;
+}
+
+.player p {
+  margin: 0;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.controls button {
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 5px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.controls button:hover {
+  background-color: #444;
+  color: white;
+}
